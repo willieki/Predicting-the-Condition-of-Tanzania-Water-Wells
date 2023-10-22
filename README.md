@@ -51,7 +51,7 @@ funder - Who funded the well
 
 gps_height - Altitude of the well
 
-installer - Organization that installed the well 
+installer - The organization that installed the well 
 
 longitude - GPS coordinate 
 
@@ -120,9 +120,6 @@ waterpoint_type - The kind of waterpoint
 waterpoint_type_group - The kind of waterpoint
 
 ### Distribution of Target Variable
-
-![download](https://user-images.githubusercontent.com/71209567/218337773-7a0d06dc-ef2f-4e17-adf3-472e4d730454.png)
-
 The majority class is the functional class while the minority is the functional needs repair class
  
 ## 3. Data Preparation
@@ -142,22 +139,13 @@ Uniformity - Handling Missing Values
 
 ## 4. Modeling
 
-The Random Forest Classifier model has an accuracy of 0.8126 and an F1 score of 0.8059
+The Random Forest Classifier model has an accuracy of 0.8148 and an F1 score of 0.8078
 
-In terms of accuracy, the random forest classifier has a higher accuracy score of 0.81 compared to the other 4 models, which had accuracy scores of 0.76 (gradient boosting), 0.77 (KNN), 0.75 (decision tree), and 0.65 (logistic regression).
+In terms of accuracy, the random forest classifier has a higher accuracy score of 0.8148 compared to the other 4 models, which had accuracy scores of  0.7584 (gradient boosting), 0.77 (KNN), 0.7638 (decision tree), and 0.6474 (logistic regression).
 
-In terms of the F1 score, the random forest classifier has a higher F1 score of 0.81 compared to the other 4 models, which had F1 scores of 0.74 (gradient boosting), 0.76 (KNN), 0.76 (decision tree), and 0.62 (logistic regression).
+In terms of the F1 score, the random forest classifier has a higher F1 score of 0.8078 compared to the other 4 models, which had F1 scores of 0.7371 (gradient boosting), 0.7531 (KNN),  0.7632 (decision tree), and 0.6167 (logistic regression).
 
 Based on these results, the random forest classifier appears to be performing the best among the 5 models.
-
-Hyperparameter tuning and cross-validation is performed because they help to optimize the model performance and prevent overfitting or underfitting.
-The randomized search cross-validation helps to perform an efficient search for the optimal hyperparameters and cross-validate the model, which leads to better model performance and robustness.
-
-The accuracy of the model is 0.8229, which means that the model correctly predicted the class label of 82.29% of the test data instances.
-The F1 score is 0.8150. A higher F1 score indicates a better performance of the model.
-
-This tuned model has better performance metrics and hence a good model.
-
  
 ## 6. Conclusion and Recommendations
 
@@ -167,23 +155,13 @@ The model could be further improved by incorporating more data especially for th
 
 ### Recommendations
 
-1. The Tanzania Ministry of Water should invest in better waterpoint types such communal standpipes and hand pumps
+1. The Tanzania Ministry of Water should invest in better waterpoint types such as communal standpipes and hand pumps
 
 2. The Tanzania Ministry of Water should ensure that the extraction type for the wells is mostly through gravity and handpump
 
-3. The Tanzania Ministry of Water should ensure that the gps height(altitude of the well) for most water points is high enough
+3. The Tanzania Ministry of Water should ensure that the GPS height(altitude of the well) for most water points is high enough
 
-4. The Tanzania Ministry of Water should also ensure that the people using the waterpoints pay either monthly, annually or per bucket to ensure that the wells are well maintained
- 
- # Repository Guide
+4. The Tanzania Ministry of Water should also ensure that the people using the waterpoints pay either monthly, annually, or per bucket to ensure that the wells are well-maintained
 
-The data used for the project can be found here: [data](https://github.com/Glo-riah/Predicting-Water-Well-Conditions-in-Tanzania/tree/main/Data)
 
-The images from EDA can be found here: [images](https://github.com/Glo-riah/Predicting-Water-Well-Conditions-in-Tanzania/tree/main/Images.)
-
-The notebook that contains the project can be found here: [notebook](https://github.com/Glo-riah/Predicting-Water-Well-Conditions-in-Tanzania/blob/main/Water%20Wells%20Condition.ipynb)
-
-The presentation for this project can be found here: [pdf](https://github.com/Glo-riah/Predicting-Water-Well-Conditions-in-Tanzania/blob/main/Slides%20(Prediction%20of%20Tanzania%20Water%20Wells)%20(3).pdf) and the video presentation is here: [video](https://www.canva.com/design/DAFaYjtM0_g/R__Sto5GrgNfp6NdISKmzg/view?utm_content=DAFaYjtM0_g&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
-
-The data report can be found here: [report](https://github.com/Glo-riah/Predicting-Water-Well-Conditions-in-Tanzania/blob/main/Tanzania%20Report%20(1).pdf)
 
